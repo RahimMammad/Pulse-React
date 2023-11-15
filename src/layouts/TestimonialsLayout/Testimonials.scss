@@ -1,0 +1,38 @@
+#testimonials {
+    height: 750px;
+    background-image: url("../../assets/review-bg.jpg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+
+    h2 {
+        text-align: center;
+        font-size: 48px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .testimonials-main-container {
+        max-width: 63%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 100px;
+
+        p {
+            color: #fff;
+            line-height: 35px;
+        }
+
+        h6 {
+            font-size: 16px;
+            color: #fff;
+            margin-top: 50px;
+
+            span {
+                color: #ffc515;
+            }
+        }
+    }
+}

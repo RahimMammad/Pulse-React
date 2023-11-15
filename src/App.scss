@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    
+    img {
+        max-width: 100%;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    img {
+        cursor: pointer;
+    }
+
+    button {
+        cursor: pointer;
+    }
+}

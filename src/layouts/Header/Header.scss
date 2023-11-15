@@ -1,0 +1,55 @@
+header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    .header-main-container {
+        max-width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 250px;
+
+        h1 {
+            font-size: 110px;
+            color: #fff;
+            font-weight: 500;
+
+            span {
+                color : #ffc515
+            }
+        }
+
+        .header-text {
+            width: 100%;
+            position: relative;
+
+            p {
+                position: absolute;
+                right: 10px;
+                color: #fff;
+            }
+        }
+    }
+
+    .sliderBtns {
+        max-width: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 400px;
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            width: 15px;
+            height: 15px;
+            background-color: #fff;
+            color: #fff;
+            border: none;
+        }
+
+        button:hover {
+            background-color: #ffc515;
+        }
+    }
+}
